@@ -1,29 +1,13 @@
 # quiz_game
 
-A new Flutter project.
+Quiz Game developed using Flutter , Fetches Data from an http End-Point and displays it in interactive way.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/to/state-management-sample).
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Entry Point for my application is QuizHomePage , using a simple button to start the quiz.
+I use Provider to handle state for my questions . While Shared Prefrences to handle scores.
 
 ## Assets
-
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
-
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/to/resolution-aware-images).
-
-## Localization
-
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
-
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter apps](https://flutter.dev/to/internationalization).
+Assets used in the application are 
+1> Canva based QuizGame logo 
+2> Google searched Background images.
